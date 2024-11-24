@@ -120,7 +120,7 @@ function Calculator() {
               onChange={handleBillChange}
               name="bill"
               id="bill"
-              className="bg-teal-50 block w-full rounded-md border-0 py-1.5 pl-7 pr-3 text-gray-900 ring-1 ring-teal-100 placeholder:text-gray-300 invalid:bg-red-100 focus:ring-inset focus:ring-teal-100 sm:text-sm sm:leading-6"
+              className="bg-cyan-50 block w-full rounded-md border-0 py-1.5 pl-7 pr-3 text-gray-900 ring-1 ring-cyan-100 placeholder:text-gray-300 invalid:bg-red-100 focus:ring-inset focus:ring-cyan-100 sm:text-sm sm:leading-6"
             />
           </div>
         </div>
@@ -151,7 +151,7 @@ function Calculator() {
             <input
               placeholder="Custom"
               onChange={handleChangeCustom}
-              className="bg-teal-50 border rounded-lg text-center"
+              className="bg-cyan-50 border rounded-lg text-center"
             ></input>
           </div>
           <span className="text-xs float-right bottom-0">
@@ -179,30 +179,30 @@ function Calculator() {
               onChange={handlePeopleChange}
               name="people"
               id="people"
-              className="bg-teal-50 block w-full rounded-md border-0 py-1.5 pl-7 pr-3 text-gray-900 ring-01 ring-teal-100 placeholder:text-gray-300 invalid:bg-red-100 focus:ring-2 focus:ring-teal-300 sm:text-sm sm:leading-6"
+              className="bg-cyan-50 block w-full rounded-md border-0 py-1.5 pl-7 pr-3 text-gray-900 ring-01 ring-cyan-100 placeholder:text-gray-300 invalid:bg-red-100 focus:ring-2 focus:ring-cyan-300 sm:text-sm sm:leading-6"
             />
           </div>
         </div>
       </div>
-      <div id="output" className="bg-teal-950  py-3 px-1 rounded-3xl lg:w-1/2">
+      <div id="output" className="bg-cyan-950  py-3 px-1 rounded-3xl lg:w-1/2">
         <div className="my-10 px-4 flex justify-between">
           <div className="">
             <div className="text-white text-sm">Tip Amount</div>
-            <div className="text-teal-700">/ person</div>
+            <div className="text-cyan-700">/ person</div>
           </div>
-          <div className="text-5xl text-teal-600">{tipPerPerson}</div>
+          <div className="text-5xl text-cyan-600">{tipPerPerson}</div>
         </div>
         <div className="my-10 px-4 flex justify-between">
           <div className="">
             <div className="text-white">Total</div>
-            <div className="text-teal-700">/ person</div>
+            <div className="text-cyan-700">/ person</div>
           </div>
-          <div className="text-5xl text-teal-600">{totalPerPerson}</div>
+          <div className="text-5xl text-cyan-600">{totalPerPerson}</div>
         </div>
         <button
           id="resetButton"
           onClick={handleReset}
-          className="w-2/3 block text-teal-900 border-teal-800 bg-teal-700 text-3xl rounded-lg tracking-widest mx-auto mt-36  p-4 text-center border-4"
+          className="w-2/3 block text-cyan-900 border-cyan-800 bg-cyan-700 text-3xl rounded-lg tracking-widest mx-auto mt-36  p-4 text-center border-4"
         >
           Reset
         </button>
