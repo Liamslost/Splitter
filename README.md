@@ -1,8 +1,5 @@
-# React + Vite
+A bill splitting app with built in tip caluclator. Made using React and Tailwind over 3 evenings.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+With more time I would like to make the custom tip field reset with the reset button and the spliter animation to restart on reset also.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+icon made by myself using sketch
